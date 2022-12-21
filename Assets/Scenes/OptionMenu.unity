@@ -883,8 +883,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1350289634}
         m_TargetAssemblyTypeName: OptionScripts, Assembly-CSharp
-        m_MethodName: ResChange
-        m_Mode: 1
+        m_MethodName: OnValueChanged
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1452,7 +1452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c97a7394c4f8300439f706b75d83d769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResDropDown: {fileID: 0}
 --- !u!4 &1350289635
 Transform:
   m_ObjectHideFlags: 0
